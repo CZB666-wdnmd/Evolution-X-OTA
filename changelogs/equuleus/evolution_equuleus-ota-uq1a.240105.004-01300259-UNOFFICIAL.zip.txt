@@ -1,3 +1,5 @@
+OTA uses cloudflare cdn. If it`s too slow, use onedrive.
+Faceunlock fixed and sync upstream
 =======================
      2024/01/30
 =======================
