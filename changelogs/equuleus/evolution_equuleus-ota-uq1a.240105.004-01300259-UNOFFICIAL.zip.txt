@@ -1,7 +1,8 @@
-Testing, please do not install
-
-
+Please make sure you are using Evolution X recovery.
+If you`re using KernelSU, you have to flash ksu-boot.img again in fastboot.
 OTA uses cloudflare cdn. If it`s too slow, use onedrive.
+
+
 Faceunlock fixed and sync upstream
 =======================
      2024/01/30
