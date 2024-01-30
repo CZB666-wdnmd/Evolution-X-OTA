@@ -1,0 +1,17 @@
+[
+   {
+      "brand": "Xiaomi",
+      "codename": "equuleus",
+      "name": "Xiaomi Mi 8 Pro",
+      "supported_versions": [
+         {
+            "device_group": "",
+            "maintainer_name": "CZB666-wdnmd",
+            "maintainer_url": "https://github.com/CZB666-wdnmd",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-unofficial-evolution-x-equuleus-14-1-7-2024.4646091/"
+         }
+      ]
+   }
+]
