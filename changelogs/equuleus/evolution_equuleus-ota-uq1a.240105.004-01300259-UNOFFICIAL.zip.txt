@@ -3,9 +3,149 @@ If you`re using KernelSU, you have to flash ksu-boot.img again in fastboot.
 OTA uses cloudflare cdn. If it`s too slow, use onedrive.
 
 
-Faceunlock fixed and sync upstream
+fix some issue about udfps and sync upstream
+=======================
+     2024/02/03
+=======================
+
+* Repository: /commits/udc
+
+ac261da fix
+225ce76 Update evolution_equuleus.mk
+d821c02 config update
+
+* Repository: https://github.com/CZB666-wdnmd/evox_frameworks_base/commits/udc
+
+ee4bc013e fix
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+d1d3799 manifest: Initial A14 manifest
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+7336d5e New Crowdin updates (#514-#586)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+8e068f5769 Settings: Adapt Evolver fragment paths
+141032a239 New Crowdin updates (#381-#388)
+
+* Repository: https://bitbucket.org/evo-x/packages_modules_Connectivity/commits/refs/heads/udc
+
+5d0849e7d1 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/modules/Connectivity into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4d7cc82b vendor: config: Build BatteryStatsViewer
+
+* Repository: https://bitbucket.org/evo-x/vendor_gms/commits/refs/heads/udc
+
+63169b8 gms: Update outdated prebuilts
+
+
+=======================
+     2024/02/02
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+1546865 Evolver: Update Island settings
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+cc4d3866 apn: Update for Telus & their MVNO's (Canada)
+
+
+=======================
+     2024/02/01
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+147e4ca Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+ea97051 Evolver: Remove UDFPS switch bar
+1771a33 Evolver: Refactor fragments/preference paths
+ac7f6d9 Evolver: Allow spoofing Velvet to latest model for CTS [2/2]
+20653f1 Evolver: Replace Edge long swipe pref with Advanced Gesture nav options [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+888d71be1f Allow extended/"L" back swipe to trigger actions/app/activities [2/2]
+7ec606d5bf Revert "Implement edge long swipe gesture [3/3]"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+fc05b566 UdfpsAnimations: Add 'none' to the styles
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+d1cb137 SettingsGoogle: Replace Edge long swipe pref with Advanced Gesture nav options [1/2]
+
+
+=======================
+     2024/01/31
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+dc03466d84 Display: the resolution scale factor changed during booting
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+a76d43d Evolver: Bring back UDFPS animation picker
+6eb7941 Evolver: Bring back Alarms/WakelockBlocker
+b5b8e6e Evolver: Temporarily move screen animation to Misc category
+2cdc213 Evolver: Sync vibration settings changes [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a3c0dac598 Settings: Add optional haptic feedback on scrolling with fling gesture [2/2]
+9501cf2081 QuickSettings: Add Haptic Feedback to tiles [2/2]
+113a94e0cf Settings: Add optional haptic feedback to volume panel [2/2]
+9d309492a6 Settings: Guard brightness slider haptic by setting [2/2]
+9fc14424e3 Settings: Incall vibration option [3/3]
+54ae6893c2 Settings: Add misc haptics category
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+675221c4c Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/services/Telecomm into udc
+db3d2ffcc Telecomm: Enable Incall vibration options by default
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+02832301 themes: Re-enable UDFPS resources package
+ad0c068c overlay: Increase max fling velocity
+d7b9eae2 device_config: Enable Circle to Search functionality
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+0dd3eeb SettingsGoogle: Sync vibration settings changes [1/2]
+
+
 =======================
      2024/01/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+0cd3650a26 telephony: Check for LTE_CA in physical channel config
+375932fc47 telephony: Do not duplicate SPN and PLMN in network name
+
+* Repository: https://github.com/PixelExperience-Staging/hardware_qcom_wlan/commits/fourteen
+
+e11906f Merge tag 'android-14.0.0_r21' of https://android.googlesource.com/platform/hardware/qcom/wlan into HEAD
+
+* Repository: https://github.com/CZB666-wdnmd/android_hardware_xiaomi/commits/udc
+
+ffce037 Merge branch 'LineageOS:lineage-20' into udc
+
+
+=======================
+     2024/01/29
 =======================
 
 * Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
@@ -24,35 +164,17 @@ a4810305f3 envsetup: Prefer setting ccache compress as command line parameter
 1616acebde CCodec: Control the inputs to avoid pipeline overflow
 1a7d4f2bd0 codec2: Use numClientBuffers to control the pipeline
 
-* Repository: https://github.com/CZB666-wdnmd/evox_frameworks_base/commits/udc
-
-9d6e11c20 Merge branch 'Evolution-X:udc' into udc
-
-* Repository: https://github.com/CZB666-wdnmd/android_hardware_xiaomi/commits/udc
-
-ffce037 Merge branch 'LineageOS:lineage-20' into udc
-
-* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
-
-c79b771 New Crowdin updates (#582)
-be456ba New Crowdin updates (#514-#581)
-
-* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
-
-fbf19b73 device_config: Enable Circle to Search functionality
-
 * Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
 
 2c32bc9 SettingsGoogle: Add missing summary for text reading options
 
 
 =======================
-     2024/01/29
+     2024/01/28
 =======================
 
 * Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
 
-064b4c04b8 Update PhoneLink 14-3 frameworks/native change
 94f4133440 Make servicemanager ProcessCapacityHigh
 
 * Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
@@ -62,7 +184,6 @@ fbf19b73 device_config: Enable Circle to Search functionality
 
 * Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
 
-514dc83369 Update PhoneLink 14-3 Settings change
 f4baf76967 Settings: Also apply "Fix a null pointer exception" to HideDevStatus
 
 * Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/14.0
@@ -71,11 +192,11 @@ a6be63a BtHelper: Add a better comment regarding workaround for BLE beacon ident
 
 * Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
 
-39c8fb3d microsoft: Import LinkToWindows and dependencies
+2baa5bae device_config: Refactor and update
 
 
 =======================
-     2024/01/28
+     2024/01/27
 =======================
 
 * Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
@@ -86,17 +207,13 @@ cc3d2fa4e9 AudioFlinger: Import Minimal Dolby Environment Changes
 
 89712ce781 Settings: Fully move Smart Pixels from Evolver
 
-* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
-
-2baa5bae device_config: Refactor and update
-
 * Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
 
 304ea71 SettingsGoogle: Adapt new Smart Pixels fragment path
 
 
 =======================
-     2024/01/27
+     2024/01/26
 =======================
 
 * Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
@@ -113,9 +230,17 @@ b66af17 Evolver: Remove no longer used monet schemes
 
 d68c3f6407 Settings: Fix a null pointer exception on cutout force full screen
 
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+cddb512d vendor: overlay: Always apply monet to both SettingsGoogle and Settings
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+56e2b0a SettingsGoogle: Follow monet color in settings icon like AOSP
+
 
 =======================
-     2024/01/26
+     2024/01/25
 =======================
 
 * Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
@@ -130,23 +255,20 @@ ffa4484b88 envsetup: Set INLINE_KERNEL_BUILDING if TARGET_PREBUILT_KERNEL is set
 
 490586758 Replace {device,qti}_kernel_headers only when building inline
 
-* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
-
-cddb512d vendor: overlay: Always apply monet to both SettingsGoogle and Settings
-
-* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
-
-56e2b0a SettingsGoogle: Follow monet color in settings icon like AOSP
-
-
-=======================
-     2024/01/25
-=======================
-
 
 =======================
      2024/01/24
 =======================
+
+
+=======================
+     2024/01/23
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+ae5e5f8fd sdm710: Label sysfs_ssr_toggle
+ec23bda8a sdm710: Label persist block device
 
 * Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
 
@@ -154,22 +276,12 @@ e278bca SystemUIGoogle: CentralSurfacesImpl: Fix build after d1 merge [2/2]
 
 
 =======================
-     2024/01/23
+     2024/01/22
 =======================
 
 * Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/udc
 
 422939cb4 libc: Add TARGET_ALTERNATIVE_FUTEX_WAITERS
-
-* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
-
-ae5e5f8fd sdm710: Label sysfs_ssr_toggle
-ec23bda8a sdm710: Label persist block device
-
-
-=======================
-     2024/01/22
-=======================
 
 
 =======================
@@ -180,83 +292,9 @@ ec23bda8a sdm710: Label persist block device
 
 032a39b Aperture: Update dependencies
 c1fa5fb Aperture: Address missing opt-in decorator warning in getMode()
-b4a5ee6 Automatic translation import
 
 * Repository: https://github.com/Evolution-X/packages_apps_Pif/commits/refs/heads/udc
 
 503ed8b Pif: Move to PreferenceFragmentCompat
-
-* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
-
-4179eed9 prebuilt: Adjust Papers' Android.mk
-
-
-=======================
-     2024/01/20
-=======================
-
-* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
-
-191a6ce91 sepolicy_vndr: legacy: Allow using logdump partition as metadata
-
-* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
-
-4aea5432b6 Fix spatial audio noise with EQ on
-
-* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
-
-ae531a6db9 Settings: Allow customizing volume stream steps [2/3]
-
-* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
-
-4b54494 SettingsGoogle: Allow customizing volume stream steps [3/3]
-
-
-=======================
-     2024/01/19
-=======================
-
-* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
-
-9fd84fc5 recovery_ui: Add support for battery capacity status
-
-
-=======================
-     2024/01/18
-=======================
-
-* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
-
-4fa3048 Aperture: Update AGP to 8.2.1
-4fe3a04 Aperture: Update Gradle to 8.5
-93a5d30 Aperture: Fix HDR10+ drawable
-20fb43d Aperture: Run `./gradlew app:generateBp`
-
-* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
-
-80ba16f1 rro_overlays: Create PixelConfigCustomOverlay for Pixels only
-
-
-=======================
-     2024/01/17
-=======================
-
-* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
-
-905067fb3d Codec2: Extend queing the dummy work signal to taro
-e180828092 Codec2: guard the dummy work signal to lahaina only
-
-* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
-
-a9fd73eaf5 Settings: Add a toggle for High touch polling rate
-3b2d21f794 Settings: Don't make app lock settings searchable
-7f5e942a33 Settings: Show AOSP Battery cycle count
-a467346275 [2/3] Allow changing face unlock method when locked
-fb1be97d65 Settings: Hide Flashlight
-73843a9958 Settings: Let app lock use face unlock
-
-* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
-
-ddc8cd1 SettingsGoogle: Add a toggle for High touch polling rate [2/2]
 
 
