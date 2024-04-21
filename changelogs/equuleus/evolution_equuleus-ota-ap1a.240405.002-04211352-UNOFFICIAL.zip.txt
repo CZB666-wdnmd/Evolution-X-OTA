@@ -1,0 +1,461 @@
+KernelSU is built in and it`s main branch of ksu(may be unstable), if you want to use without root or to use with magisk, build kernel yourself or repack boot.img from kernel in old version.
+PLEASE disable all magisk/ksu module before you update, it may cause bootloop.
+PLEASE backup your data before update beacuse it`s a big update.
+
+
+
+
+
+=======================
+     2024/04/21
+=======================
+
+* Repository: https://github.com/CZB666-wdnmd/vendor_xiaomi_equuleus/commits/main
+
+e48e6df Update equuleus-vendor.mk
+
+* Repository: https://github.com/CZB666-wdnmd/vendor_xiaomi_sdm845-common/commits/main
+
+22d4774 fixxxxxxxxxxxxxxxxxxxxxxxx
+
+
+=======================
+     2024/04/20
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+793bf8fdc87c SystemUI: monet: Remove unused colorSchemeIsApplied
+acaad53e2a3e SystemUI: monet: Allow a more granular control over shades [1/2]
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/u
+
+f5ffec7b48 Revert "IPCThreadState: Workaround to improve robustness"
+9e06dc46a3 Revert "Native: ProducerListener: Import ON_BUFFER_DETACHED Changes"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+2440e7c New Crowdin updates (#514-#642)
+ff2eca3 Evolver: Adapt to A14 QPR2
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+28dba60580a New Crowdin updates (#403)
+
+
+=======================
+     2024/04/19
+=======================
+
+* Repository: https://github.com/CZB666-wdnmd/android_kernel_xiaomi_sdm845/commits/udc
+
+3b94bd42a Add path umount
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+c9d50d1 Aperture: Hide camera mode highlight button in single capture mode too
+cb72afd Aperture: Add tint to capture preview buttons
+
+* Repository: https://bitbucket.org/evo-x/packages_modules_Connectivity/commits/refs/heads/uqpr2
+
+b76fb25118 DnsUtils: Use Cloudflare DNS instead of Google DNS
+0140ccb937 NetworkDiagnostics: Use Cloudflare DNS instead of Google DNS
+08bd70118f Tethering: Use Cloudflare DNS instead of Google DNS
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/u
+
+0a7e1d449 Hide "Use precise location" for unsupported apps
+
+
+=======================
+     2024/04/18
+=======================
+
+* Repository: https://github.com/CZB666-wdnmd/android_device_xiaomi_equuleus/commits/udc
+
+ceda940 Update for dynamic partition
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+93dedf36b927 core: Enable freeform/multiple windows feature by default
+
+
+=======================
+     2024/04/17
+=======================
+
+* Repository: https://github.com/CZB666-wdnmd/android_device_xiaomi_sdm845-common/commits/udc
+
+5079a2e fix
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+19325773a95 Settings: Add preference for KEY_MIN_REFRESH_RATE
+1d25169b02e Settings: Add peak refresh rate list preference
+
+
+=======================
+     2024/04/16
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+229e906dd8 releasetools: Make recovery patch use bsdiff exclusively
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+b5f97aef22da base: ViewConfiguration: synchronize access to sConfigurations array
+f51ca5cd096c Integrate Pixel framework hooks and wrappers
+5bac47c9d9c2 [SQUASH] SystemUI: Move to SystemUIGoogle Smartspace impl
+60a4b4d3dc2e SystemUI: AntiFlickerTile: Catch NullPointerException
+d9739392271b SystemUI: Add anti flicker tile
+5bd2859b4020 SystemUI: screenshot: Also post a notification with a preview
+6f1affb2c934 SystemUI: VolumeDialogImpl: Add content observer for panel timeout
+d5fd2ea9f9c7 SystemUI: Fix secondary label alignment on A11 QS UI Style
+4c11fb0463e0 Add required priv-app permissions for SystemUIGoogle
+8768d47ffea7 SystemUI: biometrics: Follow user setting to confirm face unlock
+b4468e396fbd AppLock: Make kotlin libs available only within this module
+b194240ac089 AppLock: Update for kotlin errors
+c0b4c7ea5fe7 AppLock: Allow using face unlock for biometric authentication
+0358a79c1a2d AppLock: Move services to new package
+bd37bc25067f AppLock: Allow locking all apps visible in launcher
+4e700dd8fcf7 AppLock: Update API to hide unprotected apps
+99f95646f5fe base: Introduce app lock [1/4]
+ef76b23c4d48 SystemUI: Fix NPE in VolumeDialogImpl causing system crash
+9c1232f2850b SystemUI: AODTile: This should be a BooleanState tile
+9d8a5cba5e3c PackageInstaller: Remove side padding from the dialog
+998d700c24ab PackageInstaller: show current/new version on sideload
+9e77d92ab052 appwidget: Catch IllegalStateException when retrieving providers profiles
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+40eac7a Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+16f2590115d Settings: Import settings from pixel-fw
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+08df9fd Update SettingsGoogle resources
+2fd4825 Clean up and update for A14 QPR2
+
+
+=======================
+     2024/04/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/u
+
+1d4db0ed73 Revert "Clear up the obsoleted cascading signal strength polling logic"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/u
+
+697c134 manifest: Initial A14 manifest
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+ca6c07327f8 Settings: Define android manifest
+c2fd2c6c56d Settings: Replace android:name for SettingsGoogle
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+b9a0f8b3 Revert "[TMP] config: Disable Pixel-fw"
+
+
+=======================
+     2024/04/14
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+ec7145b82f3 Settings: fix app lock allow biometric toggle ignored (always on)
+ee23cef5752 Settings: AppLock: Update for kotlin errors
+3afba717b5b Settings: Don't make app lock settings searchable
+6cbf5647667 Settings: Let app lock use face unlock
+556ad106ce8 Settings: Add app lock settings for alternate security settings provider
+4b920c827c5 Settings: Add app lock summary for 0 protected apps
+7116311ef8f AppLock: Slightly bigger icon size
+4a8741e8f51 Settings: Update AppLock API
+a5d1466c819 Settings: Allow locking all apps visible in launcher
+8f0e39691cf Settings: Introduce App Lock [3/4]
+
+
+=======================
+     2024/04/13
+=======================
+
+* Repository: https://github.com/CZB666-wdnmd/device_xiaomi_venus/commits/udc
+
+682dce3 update
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/u
+
+95635f8d18 cameraserver: Allow google camera to access multiple cameras
+6b9a24cefc Revert "Camera: Wait for the status tracker idle fence"
+163c9bf052 Camera: Add support for miui camera mode [1/2]
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+503bb1eeb671 PulseLightView: Cancel the animation on pulse end
+5bca875120e6 DozeTriggers: Skip proximity check on notification pulse if edge light face down enabled
+4bb056ae7f2d base: Add ambient pulse notification
+c629339b6148 base: Forward Port Volume Long Press Skip Tracks [1/2]
+21419168f825 RingtoneManager: Set an default ringtone for the SIM 2
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+0463bc9 Evolver: Migrate to SwitchPreferenceCompat
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+235ffa161c4 Settings: VolumeMusicControl: Use new material-you illustration preference
+2a19144b404 Settings: Forward Port Volume Long Press Skip Tracks [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/u
+
+5c67ddfc2e Fix the issue of not sending p2p connection change broadcast to app with PERMISSION_MAINLINE_NETWORK_STACK
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+3eed561d clocks: update from lynx-ap1a.240405.002
+
+
+=======================
+     2024/04/12
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/u
+
+ffc5c4a6c9 Revert "Remove strip.keep_symbols from libart defaults"
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/u
+
+f43a00e41 check_boot_jars: add Nothing package to whitelist
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/u
+
+a6b18d3f95 cameraserver: Let multiple cameras opened by stock camera application
+02cd4455ea audiopolicy: support extended feature in audiopolicymanager
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+108c8e58c86d Revert "[DO NOT MERGE] Make sure WiFi and Cell tiles are not created in Provider Model"
+c0eccc3cc6e9 SystemUI: NotificationLockscreenUserManagerImpl: Avoid an NPE at boot
+7d6045cf7426 core: Optimize download/upload animations
+f5c746b6f514 SystemUI: Add null check for wakelock in KeyguardViewMediator
+45943458b00e SystemUI: Fix RecodingController NPE with GameSpace
+a5e630e06589 Unregister broadcast receiver when user removed
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+f22e7f94 themes: Move IconsData from prebuilt directory
+a28eb42c Revert "animations: Import pixel off-charging animation"
+
+
+=======================
+     2024/04/11
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+9046ef2448da Enable FLAG_SECURE for userdebug builds as well on keyguard
+d36745d6289b SoundPool: Separate thread priority for SoundDecoder and StreamManager
+1ec3dc6b7edc SoundPool: Enable multithreaded track start
+e1311f471117 Use getPackagesForOps instead of iterating packages by checkOperation
+5bc14554eb63 core: Allow vendor odm symlink in framework overlays paths
+928dcd58c8a1 Catch IllegalArgumentException as it might indicate corrupted packages.xml
+902811bf4c93 ConfigurationController: Prevent app crash caused by null configuration
+d267bf8cf106 ActivityThread: Resolve runtime exception when pausing an activity
+d99f90f09ada WindowManagerService: Fix IndexOutOfBoundsException when traversing AppFreezeListener
+41604864b697 DSR: Fix DSR when we have toast window
+eca284af2540 DSR: Fix broken DSR
+a924fc183bec ActiveServices: Add delayed service restart (DSR) due to app launch
+d7c82728ccaa CachedAppOptimizer: Fix persistent compact skipped
+3d140a5a68f3 CachedAppOptimizer: Set thread group to background
+1b433d703416 OomAdjuster: B-service aging propagation on memory pressure
+250060e98b98 CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed
+b8e87287302c libhwui: compile for performance
+712ba3aeede3 libhwui: enable O3 when compiling for perf
+8a4c24d69475 libhwui: remove deprecated perf flags
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+f42983a Evolver: Migrate MainSwitchBar and Switch to Material3
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+8de1b7ab9ba Settings: Move adb root toggle and make it independent
+ff0d8625971 Settings: Disable adb root if developer options are disabled
+a83176a0549 Settings: Migrate to SwitchPreferenceCompat, SelectorWithWidgetPreference and CompoundButton.OnCheckedChangeListener
+5ba5cd953b2 Fix SMS and Calls preference summary displays empty.
+73a0a6e5ed1 Update PhoneLink 14-3 Settings change
+651ee544e2c Settings: Remove dividers in Network & Internet
+9f126c6c11b Settings: Add icon for emergency broadcasts
+1ca165b2716 Disable Navbar radius customization if hint disabled
+5045b798b7e Refactor AppPicker page to adopt Settings main theme
+a6bb95b399b Settings: Import missing Face Unlock animation
+c5d932be895 Fix-up starting style&wallpaper from search
+e51bcd56466 New Crowdin updates (#402)
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/u
+
+99a36604d3 DNM: Mass revert of BT breaking changes
+00ca385de1 fix use-after-free for sink/source metadata
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+97a959de themes: Rectify padding for QQS bottom brightness slider
+
+
+=======================
+     2024/04/10
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+abf5c4952e Remove non existent snapuserd.recovery package
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/u
+
+4fe9fbb sepolicy: qcom: Allow system app read fps node
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/udc
+
+7fb954a3 legacy: add app_data_file_type to imshelper_app_data_file
+78f4afc1 sepolicy-legacy-um: Init Evo X
+7cb33e2d sepolicy-legacy-um: Integrate PhoneLink 14-3 sepolicy change
+d5cfa4af sepolicy-legacy-um: The sepolicy update for phone link
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+fbd3b1925297 SystemUI: Clean up for Tile layout
+b392483dfc95 SystemUI: Use proper tint for face unlock icon
+4d54dce5dc8e SystemUI: Follow monet theme on privacy indicators
+5548a4e8dcf3 SystemUI: Align the QS carrier text to its gravity bias
+55e0f5ec75f6 SystemUI: Tune QS Panel bottom padding
+ee9f28e987f6 SystemUI: Add default path for FPS info service
+5e91bb4407a6 SystemUI: Adapt long press on QS settings to launch The Evolver
+55ac2b3ff113 MediaSessionRecord: add synchronize control for modification of mControllerCallbackHolders
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+008a1fa GameSpace: Switch to FPS sysfs node
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/u
+
+e8c38d511a Obtain message instead of using reference
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+49b5ee56 vendor: Disable phantom process monitoring as workaround
+
+
+=======================
+     2024/04/09
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+c3049d6bb341 base: PhantomProcessList: Correctly handle orphan procs
+20f8b839f2e7 VolumeDialogImpl: Handle cases where media controller is not available
+489117a7fad1 base: Add hide annotation to all Device Integration components
+fbb5b605c469 base: Make device integration disable/enable through props
+95609a106393 fixup! base: add support of the Phone Link
+81ecdefa7710 base: Enable device integration
+1968990b51ff base: add support of the Phone Link
+ec98226a25e8 QSFooter: Launch The Evolver when long clicking settings
+20a895f7f293 PhoneWindowManager: Pocket Judge: Don't mess with power button to reject call
+a84d936115ac base: Pocket Judge: Don't go to sleep while on call
+cb52d6d77d7b pocket mode: Update style to latest OOS specs
+d21ffecc90ca PocketJudge: Allow to register vendor proximity sensor
+989e39f6535e PocketLock: Make using light sensor optional
+55367a8b64ac SystemUI: Improve pocket mode layout
+7552ca044445 base: Redo Pocket mode view like OOS
+3899902c7925 Fix an edge case in KeyguardUpdateMonitor pocket callback
+d39ec0fc8273 PocketJudge: allow register vendor pocket sensor
+55b931d68e01 PocketLock: fix flickering on animations
+d5c45eb34231 Pocket lock: Add config_pocketModeSupported overlay
+886e94693b97 pocket: introduce pocket bridge
+1d21e782acdd pocket: Reduce sleep timeout for pocket lock
+e014a6cb101e pocket: Use MD2 lock drawable
+8f5aff8fa960 Pocket lock improvements
+2da2e2989d51 pocket: Fix pocket lock view for display cutouts
+95dd57cd7693 pocket: Adjust sleep timeout for pocket lock view to 10 secs
+226f08a696a5 PocketService: Adjust light sensor rate to 400ms
+0da891aa514d pocket: Add hardware acceleration and properly maintain SYSTEM_UI flags
+bae2a03e8c0e policy: introduce pocket lock
+f337dba0f64a pocket: introduce pocket judge
+d5d218797621 SettingsLib: Make IllustrationPreference bg protection transparent
+dea41fdf8213 New Crowdin updates (#513)
+18778999031f SystemUI: MediaHierarchyManager: Initiate allowMediaPlayerOnLockScreen
+7cec3450baab SystemUI: Animate volume panel dialog opening from button
+7d6c1b66d151 SystemUI: Apply rounded corners for QS footer
+ec5d03c1be8d SystemUI: Don't animate QS tile text when opening activity/dialog from A11QS ui
+0d217b82a9ec WindowManager: finally proper desktop mode handling
+3376133056e8 wm: Fix rounded corners of freeform windows
+fce0ad9f1897 wm: block task transitions from displaying in freeform
+e81609f251b9 wm: Fix menu only opening once on legacy apps
+4c5bf4e3fdca services: WindowOrientationListener: bail out if rotation resolver service instance is null
+8dabc896b8d1 SystemUI: Properly set margins for QQS Brightness slider
+32a18c6b52cf services: Implement exit app animation boost
+266bcc76ed25 services: Implement activity boost optimization
+7a28743aa690 services: Implement transition boosting
+834203bcb17e services: Boost gesture flings
+c7dfbd3cb8bd SQLiteDatabase: Catch corrupt exception during transaction
+596d8b21e431 audio: Don't play sound effects if stream is muted
+af00dd4d5750 SystemUI: IslandView: Auto remove now playing notification
+ffd4944adb85 SystemUI: IslandView: Properly handle island notification on track change
+bdce52c081fc SystemUI: IslandView: Return if sbn.notification.contentIntent is NULL
+070be9bf50f5 SystemUI: IslandView: Get application info from all user
+52f942ba76d4 SystemUI: IslandView: Import SystemUIToast icon retrieving logic
+b9403d5aeddf SystemUI: IslandView: Implement now playing for Island notification
+7b8e3228d478 SystemUI: IslandView: Ensure global headsup is enabled
+726940a28231 SystemUI: IslandView: Squeeze it
+607bc9c95a71 SystemUI: IslandView: Import SystemUIToast icon retrieving logic
+c2619d7e1e31 SystemUI: Implement Island notification feature [SQUASHED]
+2d83ea49855a Pulse: Implement pulse color based album art [1/2]
+fd1520fce403 Ambient Music Ticker - Allow to pulse on new tracks [1/2]
+76658916486d Parcel: fix memory leak
+be0b3a316edb screencap: Add async option to media scanner broadcast
+34903da23f30 Use synchronization to protect service list and service class name set
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/u
+
+d8628053b SafetyCenterUtils: This function is only used by tests
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+05b75392 lineage: Add aconfig flags extension for AP1A
+
+
+=======================
+     2024/04/08
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/u
+
+5ed1cfc qcom: Allow CAF FM radio app to read ro.vendor.fm.use_audio_session
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/u
+
+7705c446c8 Update PhoneLink 14-3 frameworks/native change
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sm8450_display/commits/refs/heads/udc
+
+82f05488 hwc_display: guard Dolby Vision support
+b9881488 hwc_display: Support dolby vision
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+3d111c11 vendor: Inherit Microsoft prebuilts
+e14dcc5a clocks: update from husky-ap1a.240405.002
+35c76412 AndroidBlackTheme: Make the QS footer transparent for black theme
+db713c6c AndroidBlackTheme: Update colors
+363da304 AndroidBlackTheme: Move color resources to night
+213e9ab8 apns: Add 4ka SK
+7732661f kernel: Clean headers installed in uapi/asm as well
+fc4e760b vars: Remove msm-4.9/msm-4.14/gs201 kernels
+d2e35eb8 vars: April 2024 Security update
+4b284eff version: Uprev to 8.5
+1ce252df Partially revert "[TMP] themes: Drop QS styles"
